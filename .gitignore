@@ -89,3 +89,10 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+.idea/$CACHE_FILE$
+.idea/.gitignore
+.idea/encodings.xml
+.idea/eslint-config-axdraft.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
