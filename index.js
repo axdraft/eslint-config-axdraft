@@ -8,11 +8,6 @@ module.exports = {
     'airbnb-base',
     'airbnb/rules/react'
   ],
-  globals: {
-    location: true,
-    Stripe: true,
-    gtag: true
-  },
   settings: {
     react: {
       version: 'detect'
