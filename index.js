@@ -1,18 +1,10 @@
 module.exports = {
-  plugins: [
-    'react',
-    'react-hooks'
-  ],
   extends: [
     'plugin:react/recommended',
+    'plugin:react-hooks',
     'airbnb-base',
     'airbnb/rules/react'
   ],
-  settings: {
-    react: {
-      version: 'detect'
-    }
-  },
   rules: {
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
