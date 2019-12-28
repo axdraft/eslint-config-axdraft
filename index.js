@@ -59,7 +59,7 @@ module.exports = {
     'object-curly-newline': ['error', {
       ImportDeclaration: { multiline: true, minProperties: 6 }
     }],
-    'no-underscore-dangle': ['error', { allow: ['__isNew__'] }],
+    'no-underscore-dangle': ['error', { allow: ['__isNew__', '__data'] }],
     'import/no-dynamic-require': 'off'
   }
 };
