@@ -58,6 +58,7 @@ module.exports = {
       ImportDeclaration: { multiline: true, minProperties: 6 }
     }],
     'no-underscore-dangle': ['error', { allow: ['__isNew__', '__data', '_json'] }],
-    'import/no-dynamic-require': 'off'
+    'import/no-dynamic-require': 'off',
+    'no-warning-comments': ['error', { terms: ['stackoverflow.com'], location: 'anywhere' }]
   }
 };
