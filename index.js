@@ -59,6 +59,21 @@ module.exports = {
     }],
     'no-underscore-dangle': ['error', { allow: ['__isNew__', '__data', '_json'] }],
     'import/no-dynamic-require': 'off',
-    'no-warning-comments': ['error', { terms: ['stackoverflow.com'], location: 'anywhere' }]
+    'no-warning-comments': ['error', { terms: ['stackoverflow.com'], location: 'anywhere' }],
+    'padding-line-between-statements': [
+      'error', {
+        'blankLine': 'always',
+        'prev': ['const', 'let', 'var'],
+        'next': '*'
+      }, {
+        'blankLine': 'any',
+        'prev': ['const', 'let', 'var'],
+        'next': ['const', 'let', 'var']
+      }, {
+        'blankLine': 'always',
+        'prev': '*',
+        'next': 'return'
+      }
+    ]
   }
 };
